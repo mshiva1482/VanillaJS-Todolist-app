@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist - App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Todolist</h1>
+    </div>
+
+    <div class="main">
+        <div class="adder">
+            <h2>Add tasks</h2>
+            <br>
+            <div class="flex-container">
+                <form id="form1">
+                    <input type="text" id="input1" placeholder="Enter Item">
+                    <button id="btn">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="lister">
+            <h2>tasks</h2>
+            <br>
+            <table>
+                <tbody id="item-n">
+                    <tr>
+                        <td class="f-child">Buy food</td>
+                        <td><button class="delete">X</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- <ul class="item-n">
+                <li class="item">Buy food<button class="delete">X</button></li>
+            </ul> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

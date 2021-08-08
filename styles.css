@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    border: 3px solid black;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+/* HEADER SECTION */
+.header{
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* MAIN CONTENT SECTION */
+.main{
+    border: 3px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+/* TASK INPUT */
+.adder{
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container input{
+    width: 270px;
+    border: 2px solid black;
+    padding: 6px;
+    margin-right: 10px;
+}
+#btn{
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* TASK OUPUT */
+.lister{
+    padding: 20px;
+}
+.item-n{
+    border: 2px solid black;
+    padding: 5px;
+}
+.item-n li{
+    flex-grow: 5;
+    text-align: start;
+    list-style-type: none;
+}
+.lister table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 100px;
+
+}
+.lister table tr, td{
+    text-align: end;
+    padding: 8px;
+    border-bottom: 2px solid black;
+
+}
+.f-child{
+    text-align: start;
+}
+.delete{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 6px;
+    background-color: rgb(255, 72, 72);
+    color: white;
+    cursor: pointer;
+}
